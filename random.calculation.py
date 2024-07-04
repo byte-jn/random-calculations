@@ -1,18 +1,19 @@
 import random
-import pyautogui as pg
 import time 
 
-time.sleep(3)
-len = input("How long shoud the numbers be..")
+len = int(input("How long shoud the numbers be.. "))
 w = ("+","-","*",":","% von ")
+x = ""
+z = ""
 
 for j in range(1):
     for i in range(len):
-        pg.write(str(random.randint(0,9)))
+        x = x + (str(random.randint(0,9)))
     
-    pg.write(random.choice(w))
+    y = (random.choice(w))
 
     for i in range(len):
-        pg.write(str(random.randint(0,9)))
+        z = z +(str(random.randint(0,9)))
 
+print(str(x)+ " " + y + " " + str(z))
 time.sleep(10)
