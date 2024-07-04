@@ -15,5 +15,4 @@ for j in range(1):
     for i in range(len):
         pg.write(str(random.randint(0,9)))
 
-time.sleep(0.1)
-pg.press("enter")
+time.sleep(10)
