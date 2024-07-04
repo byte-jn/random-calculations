@@ -3,7 +3,7 @@ import pyautogui as pg
 import time 
 
 time.sleep(3)
-len = 3
+len = input("How long shoud the numbers be..")
 w = ("+","-","*",":","% von ")
 
 for j in range(1):
